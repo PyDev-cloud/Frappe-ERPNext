@@ -135,11 +135,19 @@ bench get-app erpnext --branch version-13
 bench get-app https://github.com/frappe/erpnext --branch version-13
 
 # Install ERPNext on your site
+```bash
 bench --site dcode.com install-app erpnext
+```
 
 # Start the server
+```bash
 bench start
 ```
+# Check site for any error 
+```bash
+bench --site dcode.com doctor
+```
+
 
 
 
